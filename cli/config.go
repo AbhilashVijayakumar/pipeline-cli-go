@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 
 	"github.com/kardianos/osext"
-	"launchpad.net/goyaml"
+	"gopkg.in/yaml.v2"
 )
 
 //Yaml file keys
@@ -110,7 +110,8 @@ func (c Config) FromYaml(r io.Reader) error {
 	if err != nil {
 		return err
 	}
-	err = goyaml.Unmarshal(bytes, c)
+	//err = goyaml.Unmarshal(bytes, c)
+	err = yaml.Unmarshal(bytes, c)
 	if err != nil {
 		return err
 	}

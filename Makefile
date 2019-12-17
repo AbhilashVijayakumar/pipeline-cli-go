@@ -45,7 +45,8 @@ build-setup:
 	ln -s "$(CURDIR)/libs/blackterm" "${GOPATH}/src/github.com/capitancambio/"
 	@${GO} get github.com/capitancambio/chalk
 	@${GO} get github.com/russross/blackfriday
-	@${GO} get launchpad.net/goyaml
+	#@${GO} get launchpad.net/goyaml
+	@${GO} get gopkg.in/yaml.v2
 	@if [ -d "$${PIPELINE_CLIENTLIB_PATH}" ]; then \
 		rm -rf "${GOPATH}/src/github.com/daisy/pipeline-clientlib-go" && \
 		ln -s "$${PIPELINE_CLIENTLIB_PATH}" "${GOPATH}/src/github.com/daisy/pipeline-clientlib-go" && \
