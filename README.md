@@ -10,7 +10,7 @@ How to build
 ```
         $ mkdir ~/src/golibs/
         $ cd ~/src/golibs/
-        $ export GOPATH=~/src/golibs:$GOPATH
+        $ export GOPATH=~/src/golibs
 ```
 
 3. Install dependencies:
