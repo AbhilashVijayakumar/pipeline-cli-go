@@ -20,7 +20,8 @@ How to build
         #go get launchpad.net/goyaml
         go get gopkg.in/yaml.v2
         go get github.com/daisy-consortium/pipeline-clientlib-go
-        go get bitbucket.org/kardianos/osext
+        #go get bitbucket.org/kardianos/osext
+        go get github.com/kardianos/osext
         go get github.com/daisy-consortium/pipeline-cli-go
         
         
