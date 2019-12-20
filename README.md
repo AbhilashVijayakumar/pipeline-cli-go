@@ -28,8 +28,9 @@ How to build
 4. The building process will create two executables, dp2 and dp2admin in the bin/ folder:
 
 
-        go install github.com/daisy-consortium/pipeline-cli-go/dp2
-        go install github.com/daisy-consortium/pipeline-cli-go/dp2admin
+        #go install github.com/daisy-consortium/pipeline-cli-go/dp2
+        #go install github.com/daisy-consortium/pipeline-cli-go/dp2admin
+        #build locally and copy to server /home/ubuntu/pipeline-cli-go
         
 5. Copy the default configuration file to the same directory as the binaries:
 
