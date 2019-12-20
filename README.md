@@ -43,7 +43,8 @@ In order to allow the go client play nice with the rest of the pipeline ecosyste
 
 Follow the previous instructions till step 2. installing go from the sources. 
 
-        cd src/github.com/daisy-consortium/pipeline-cli-go/
+        #cd src/github.com/daisy-consortium/pipeline-cli-go/
+        cd /home/ubuntu/src/golibs/src/github.com/daisy-consortium/pipeline-cli-go/
         mvn clean install
 
 You can find in the target/bin directory all the binaries from windows,mac and linux platforms.
